@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color type="color" name="colorPrimary">#5D4037</color>
+    <color type="color" name="colorPrimaryDark">#303F9F</color>
+    <color type="color" name="colorAccent">#FF4081</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="why_spanish">#FD8E09</color>
+
+    <!-- Background color for the family members category -->
+    <color name="alphabets">#379237</color>
+
+    <!-- Background color for the colors category -->
+    <color name="numbers">#8800A0</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="colors">#16AFCA</color>
+
+    <color name="family">#FFD600</color>
+
+    <color name="organs">#FF4081</color>
+
+    <color name="animals">#304FFE</color>
+
+    <color name="phrases">#76FF03</color>
+
+    <color name="daily">#000</color>
+
+    <color name="list_background_color">#000</color>
+
+    <color name="black">#000</color>
+
+    <color name="white">#FFFFFF</color>
+
+</resources>

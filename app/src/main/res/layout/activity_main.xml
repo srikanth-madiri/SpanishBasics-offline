@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical"
+        tools:context="com.webatu.bardenwells.spanishbasics_offline.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/why_spanish"
+                style="@style/CategoryStyle"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/why_spanish"
+                android:text="@string/why_spanish" />
+
+            <TextView
+                android:id="@+id/alphabets"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/alphabets"
+                android:text="@string/alphabets" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/numbers"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/numbers"
+                android:text="@string/numbers" />
+
+            <TextView
+                android:id="@+id/colors"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colors"
+                android:text="@string/colors" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/family"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/family"
+                android:text="@string/family" />
+
+            <TextView
+                android:id="@+id/organs"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/organs"
+                android:text="@string/organs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/animals"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/animals"
+                android:text="@string/animals" />
+
+            <TextView
+                android:id="@+id/phrases"
+                style="@style/CategoryStyle"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/phrases"
+                android:text="@string/phrases" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/daily"
+            android:layout_height="60dp"
+            android:minHeight="40dp"
+            android:layout_width="match_parent"
+            android:background="@color/daily"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/daily" />
+
+    </LinearLayout>
