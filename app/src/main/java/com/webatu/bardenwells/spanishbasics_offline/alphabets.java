@@ -56,7 +56,7 @@ public class alphabets extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("One", "Ondhu", R.drawable.number_one, R.raw.number_one));
+        words.add(new Word("el pulmón", "Ondhu", R.drawable.number_one, R.raw.number_one));
         words.add(new Word("Two", "Eradu", R.drawable.number_two, R.raw.number_one));
         words.add(new Word("Three", "Mooru", R.drawable.number_three, R.raw.number_one));
         words.add(new Word("Four", "Naalugu", R.drawable.number_four, R.raw.number_one));

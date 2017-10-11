@@ -1,5 +1,7 @@
 package com.webatu.bardenwells.spanishbasics_offline;
 
+import android.animation.Animator;
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.GradientDrawable;
@@ -9,6 +11,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewAnimationUtils;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -25,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the why spanish? category
-        TextView why = (TextView) findViewById(R.id.why_spanish);
+        final TextView why = (TextView) findViewById(R.id.why_spanish);
 
         // Set a click listener on that View
         why.setOnClickListener(new View.OnClickListener() {
@@ -34,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Create a new intent to open the {@link why spanish}
                 Intent whyIntent = new Intent(MainActivity.this, why_spanish.class);
-
-                // Start the new activity
+               // Start the new activity
                 startActivity(whyIntent);
             }
         });

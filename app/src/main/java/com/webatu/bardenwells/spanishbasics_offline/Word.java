@@ -9,7 +9,7 @@ public class Word {
     private String spanish;
     //variable to check if image is there for a particular word
     private int NO_IMAGE_PROVIDED = -1;
-    //variabe to hold audio resourse id
+    //variabe to hold audio resource id
     private int mAudioResourceId;
     //image resource resource id for word
     private int mImageResourceId = NO_IMAGE_PROVIDED;

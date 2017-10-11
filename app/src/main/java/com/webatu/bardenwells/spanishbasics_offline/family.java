@@ -56,16 +56,23 @@ public class family extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("One", "Ondhu", R.drawable.number_one, R.raw.number_one));
-        words.add(new Word("Two", "Eradu", R.drawable.number_two, R.raw.number_one));
-        words.add(new Word("Three", "Mooru", R.drawable.number_three, R.raw.number_one));
-        words.add(new Word("Four", "Naalugu", R.drawable.number_four, R.raw.number_one));
-        words.add(new Word("Five", "aaa", R.drawable.number_five, R.raw.number_one));
-        words.add(new Word("Six", "sss", R.drawable.number_six, R.raw.number_one));
-        words.add(new Word("Seven", "ddd", R.drawable.number_seven, R.raw.number_one));
-        words.add(new Word("Eight", "fff", R.drawable.number_eight, R.raw.number_one));
-        words.add(new Word("Nine", "ggg", R.drawable.number_nine, R.raw.number_one));
-        words.add(new Word("Ten", "hhh", R.drawable.number_ten, R.raw.number_one));
+        words.add(new Word("Father", "padre", R.drawable.number_one, R.raw.father));
+        words.add(new Word("Mother", "madre", R.drawable.number_two, R.raw.mother));
+        words.add(new Word("Daughter", "hija", R.drawable.number_four, R.raw.daughter));
+        words.add(new Word("Husband", "esposo", R.drawable.number_five, R.raw.husband));
+        words.add(new Word("Wife", "esposa", R.drawable.number_six, R.raw.wife));
+        words.add(new Word("Brother", "hermano", R.drawable.number_seven, R.raw.brother));
+        words.add(new Word("Sister", "hermana", R.drawable.number_eight, R.raw.sister));
+        words.add(new Word("GrandFather", "abuelo", R.drawable.number_nine, R.raw.grandfather));
+        words.add(new Word("GrandMother", "abuela", R.drawable.number_ten, R.raw.grandmother));
+        words.add(new Word("GrandSon", "nieto", R.drawable.number_ten, R.raw.grandson));
+        words.add(new Word("GrandDaughter", "nieta", R.drawable.number_ten, R.raw.granddaughter));
+        words.add(new Word("Uncle", "tío", R.drawable.number_ten, R.raw.uncle));
+        words.add(new Word("Aunt", "tía", R.drawable.number_ten, R.raw.aunt));
+        words.add(new Word("Nephew", "sobrino", R.drawable.number_ten, R.raw.nephew));
+        words.add(new Word("Niece", "sobrina", R.drawable.number_ten, R.raw.niece));
+        words.add(new Word("Cousin", "primo", R.drawable.number_ten, R.raw.cousin));
+
 //creating a custom Adapter for ListView
         WordAdapter adapter = new WordAdapter(this, words, R.color.list_background_color);
 //getting the ListView to which the Adapter has to be added
