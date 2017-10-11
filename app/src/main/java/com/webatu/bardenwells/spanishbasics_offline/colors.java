@@ -55,7 +55,7 @@ public class colors extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("White", "blanco", R.drawable.number_one, R.raw.white));
+        words.add(new Word("White", "blanco", R.drawable.number_two, R.raw.white));
         words.add(new Word("Yellow", "amarillo", R.drawable.number_two, R.raw.yellow));
         words.add(new Word("Red", "rojo", R.drawable.number_four, R.raw.red));
         words.add(new Word("Gray", "gris", R.drawable.number_six, R.raw.gray));

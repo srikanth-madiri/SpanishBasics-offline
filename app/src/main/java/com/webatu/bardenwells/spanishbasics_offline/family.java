@@ -56,7 +56,7 @@ public class family extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Father", "padre", R.drawable.number_one, R.raw.father));
+        words.add(new Word("Father", "padre", R.drawable.number_two, R.raw.father));
         words.add(new Word("Mother", "madre", R.drawable.number_two, R.raw.mother));
         words.add(new Word("Daughter", "hija", R.drawable.number_four, R.raw.daughter));
         words.add(new Word("Husband", "esposo", R.drawable.number_five, R.raw.husband));

@@ -56,16 +56,16 @@ public class alphabets extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("el pulmón", "Ondhu", R.drawable.number_one, R.raw.number_one));
-        words.add(new Word("Two", "Eradu", R.drawable.number_two, R.raw.number_one));
-        words.add(new Word("Three", "Mooru", R.drawable.number_three, R.raw.number_one));
-        words.add(new Word("Four", "Naalugu", R.drawable.number_four, R.raw.number_one));
-        words.add(new Word("Five", "aaa", R.drawable.number_five, R.raw.number_one));
-        words.add(new Word("Six", "sss", R.drawable.number_six, R.raw.number_one));
-        words.add(new Word("Seven", "ddd", R.drawable.number_seven, R.raw.number_one));
-        words.add(new Word("Eight", "fff", R.drawable.number_eight, R.raw.number_one));
-        words.add(new Word("Nine", "ggg", R.drawable.number_nine, R.raw.number_one));
-        words.add(new Word("Ten", "hhh", R.drawable.number_ten, R.raw.number_one));
+        words.add(new Word("el pulmón", "Ondhu", R.drawable.number_one, R.raw.aunt));
+        words.add(new Word("Two", "Eradu", R.drawable.number_two, R.raw.aunt));
+        words.add(new Word("Three", "Mooru", R.drawable.number_three, R.raw.aunt));
+        words.add(new Word("Four", "Naalugu", R.drawable.number_four, R.raw.aunt));
+        words.add(new Word("Five", "aaa", R.drawable.number_five, R.raw.aunt));
+        words.add(new Word("Six", "sss", R.drawable.number_six, R.raw.aunt));
+        words.add(new Word("Seven", "ddd", R.drawable.number_seven, R.raw.aunt));
+        words.add(new Word("Eight", "fff", R.drawable.number_eight, R.raw.aunt));
+        words.add(new Word("Nine", "ggg", R.drawable.number_nine, R.raw.aunt));
+        words.add(new Word("Ten", "hhh", R.drawable.number_ten, R.raw.aunt));
 //creating a custom Adapter for ListView
         WordAdapter adapter = new WordAdapter(this, words, R.color.list_background_color);
 //getting the ListView to which the Adapter has to be added

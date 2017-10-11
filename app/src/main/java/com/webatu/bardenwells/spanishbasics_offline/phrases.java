@@ -56,16 +56,16 @@ public class phrases extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("One", "Ondhu", R.raw.number_one));
-        words.add(new Word("Two", "Eradu", R.raw.number_one));
-        words.add(new Word("Three", "Mooru", R.raw.number_one));
-        words.add(new Word("Four", "Naalugu", R.raw.number_one));
-        words.add(new Word("Five", "aaa", R.raw.number_one));
-        words.add(new Word("Six", "sss", R.raw.number_one));
-        words.add(new Word("Seven", "ddd", R.raw.number_one));
-        words.add(new Word("Eight", "fff", R.raw.number_one));
-        words.add(new Word("Nine", "ggg", R.raw.number_one));
-        words.add(new Word("Ten", "hhh", R.raw.number_one));
+        words.add(new Word("One", "Ondhu", R.raw.aunt));
+        words.add(new Word("Two", "Eradu", R.raw.aunt));
+        words.add(new Word("Three", "Mooru", R.raw.aunt));
+        words.add(new Word("Four", "Naalugu", R.raw.aunt));
+        words.add(new Word("Five", "aaa", R.raw.aunt));
+        words.add(new Word("Six", "sss", R.raw.aunt));
+        words.add(new Word("Seven", "ddd", R.raw.aunt));
+        words.add(new Word("Eight", "fff", R.raw.aunt));
+        words.add(new Word("Nine", "ggg", R.raw.aunt));
+        words.add(new Word("Ten", "hhh", R.raw.aunt));
 //creating a custom Adapter for ListView
         WordAdapter adapter = new WordAdapter(this, words, R.color.list_background_color);
 //getting the ListView to which the Adapter has to be added
