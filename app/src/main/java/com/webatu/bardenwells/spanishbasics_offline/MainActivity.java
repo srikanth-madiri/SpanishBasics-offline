@@ -288,7 +288,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.Developer:
 
-                // Create a new intent to open the {@link why spanish}
+                // Create a new intent to open the Developer Page
                 Intent developerIntent = new Intent(MainActivity.this, Developer.class);
 
                 // Start the new activity
@@ -302,6 +302,28 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.More_Apps:
 
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+                builder1.setCancelable(true);
+                builder1.setTitle("Stay Tuned!!!");
+                builder1.setMessage("COMING SOOOOOON.....");
+                builder1.setPositiveButton("ok",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                            }
+                        });
+
+
+                builder1.setNegativeButton("cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+
+                AlertDialog dialog1 = builder1.create();
+                dialog1.show();
                 return true;
 
             default:

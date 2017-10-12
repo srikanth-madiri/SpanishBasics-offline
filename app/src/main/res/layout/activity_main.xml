@@ -18,21 +18,23 @@
             <TextView
                 android:id="@+id/why_spanish"
                 style="@style/CategoryStyle"
-                android:fontFamily="sans-serif-smallcaps"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/why_spanish"
-                android:text="@string/why_spanish" />
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/why_spanish"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/alphabets"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/alphabets"
-                android:text="@string/alphabets" />
+                android:text="@string/alphabets"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
@@ -44,20 +46,22 @@
             <TextView
                 android:id="@+id/numbers"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/numbers"
-                android:text="@string/numbers" />
+                android:text="@string/numbers"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/colors"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/colors"
-                android:text="@string/colors" />
+                android:text="@string/colors"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
@@ -70,20 +74,22 @@
             <TextView
                 android:id="@+id/family"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/family"
-                android:text="@string/family" />
+                android:text="@string/family"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/organs"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/organs"
-                android:text="@string/organs" />
+                android:text="@string/organs"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
@@ -95,34 +101,36 @@
             <TextView
                 android:id="@+id/animals"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/animals"
-                android:text="@string/animals" />
+                android:text="@string/animals"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/phrases"
                 style="@style/CategoryStyle"
-                android:layout_marginRight="2.5dp"
-                android:layout_marginLeft="2.5dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
                 android:background="@color/phrases"
-                android:text="@string/phrases" />
+                android:text="@string/phrases"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
 
-        <TextView
-            android:id="@+id/daily"
-            android:layout_height="60dp"
-            android:minHeight="40dp"
-            android:layout_width="match_parent"
-            android:background="@color/daily"
-            android:gravity="center"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:text="@string/daily" />
+    <TextView
+        android:id="@+id/daily"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/daily"
+        android:gravity="center"
+        android:minHeight="40dp"
+        android:text="@string/daily"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
 
     </LinearLayout>

@@ -65,7 +65,7 @@ public class colors extends AppCompatActivity {
         words.add(new Word("Black", "negro", R.drawable.number_ten, R.raw.black));
         words.add(new Word("Fuchisa", "fucsia", R.drawable.number_three, R.raw.fuchsia));
         words.add(new Word("Silver", "plata", R.drawable.number_five, R.raw.silver));
-        words.add(new Word("Maroon", "granate, abandonar", R.drawable.number_eight, R.raw.maroon));
+        words.add(new Word("Maroon", "granate", R.drawable.number_eight, R.raw.maroon));
         words.add(new Word("Lime", "lima", R.drawable.number_nine, R.raw.lime));
         words.add(new Word("Olive", "aceituna", R.drawable.number_ten, R.raw.olive));
         words.add(new Word("Navy", "marina", R.drawable.number_ten, R.raw.navy));

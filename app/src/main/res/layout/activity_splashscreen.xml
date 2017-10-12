@@ -2,31 +2,53 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#05c3f9"
+    android:background="#05c"
     android:layout_gravity="center"
     android:id="@+id/lin_lay"
     android:gravity="center"
     android:orientation="vertical"
     android:weightSum="1">
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Spanish World !!!"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/splash"
         android:layout_width="169dp"
-        android:layout_height="98dp"
-        android:layout_gravity="center"
-        android:layout_weight="0.64"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5"
         android:src="@drawable/splash_3" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:text="Hola!!"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="casual"
         android:textColor="@color/white"
         android:textColorHighlight="@color/white"
-        android:textSize="24sp"
+        android:textSize="32sp"
         android:textStyle="italic" />
+
+    <ProgressBar
+        android:id="@+id/splash_screen_progress_bar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-100dp" />
 
 </LinearLayout>
 

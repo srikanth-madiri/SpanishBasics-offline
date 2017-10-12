@@ -55,17 +55,43 @@ public class organs extends AppCompatActivity {
         //create and setup the request for audio focus
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 //creating an arrayList for numbers
+
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("One", "Ondhu", R.drawable.number_two, R.raw.aunt));
-        words.add(new Word("Two", "Eradu", R.drawable.number_two, R.raw.aunt));
-        words.add(new Word("Three", "Mooru", R.drawable.number_three, R.raw.aunt));
-        words.add(new Word("Four", "Naalugu", R.drawable.number_four, R.raw.aunt));
-        words.add(new Word("Five", "aaa", R.drawable.number_five, R.raw.aunt));
-        words.add(new Word("Six", "sss", R.drawable.number_six, R.raw.aunt));
-        words.add(new Word("Seven", "ddd", R.drawable.number_seven, R.raw.aunt));
-        words.add(new Word("Eight", "fff", R.drawable.number_eight, R.raw.aunt));
-        words.add(new Word("Nine", "ggg", R.drawable.number_nine, R.raw.aunt));
-        words.add(new Word("Ten", "hhh", R.drawable.number_ten, R.raw.aunt));
+
+        words.add(new Word("Head", "cabeza", R.drawable.number_ten, R.raw.head));
+        words.add(new Word("Arm", "brazo", R.drawable.number_ten, R.raw.arm));
+        words.add(new Word("Waist", "cintura", R.drawable.number_ten, R.raw.waist));
+        words.add(new Word("Leg", "pierna", R.drawable.number_ten, R.raw.leg));
+        words.add(new Word("Face", "cara", R.drawable.number_ten, R.raw.face));
+        words.add(new Word("Chest", "pecho", R.drawable.number_ten, R.raw.chest));
+        words.add(new Word("Stomach", "estómago", R.drawable.number_ten, R.raw.stomach));
+        words.add(new Word("Foot", "pie", R.drawable.number_ten, R.raw.foot));
+        words.add(new Word("Eye", "ojo", R.drawable.number_ten, R.raw.eye));
+        words.add(new Word("Eyebrow", "ceja", R.drawable.number_ten, R.raw.eye_brow));
+        words.add(new Word("Nose", "nariz", R.drawable.number_ten, R.raw.nose));
+        words.add(new Word("Chin", "mentón", R.drawable.number_ten, R.raw.chin));
+        words.add(new Word("Hair", "pelo", R.drawable.number_ten, R.raw.hair));
+        words.add(new Word("Ear", "oreja", R.drawable.number_ten, R.raw.ear));
+        words.add(new Word("Lip", "labio", R.drawable.number_ten, R.raw.lips));
+        words.add(new Word("Neck", "cuello", R.drawable.number_ten, R.raw.enck));
+        words.add(new Word("Nail", "clavo", R.drawable.number_ten, R.raw.nail));
+        words.add(new Word("Finger", "dedo", R.drawable.number_ten, R.raw.finger));
+        words.add(new Word("Wrist", "muñeca", R.drawable.number_ten, R.raw.wrist));
+        words.add(new Word("Palm", "palma", R.drawable.number_ten, R.raw.palm));
+        words.add(new Word("Elbow", "codo", R.drawable.number_ten, R.raw.elbow));
+        words.add(new Word("Shoulder", "hombro", R.drawable.number_ten, R.raw.shoulder));
+        words.add(new Word("Knee", "rodilla", R.drawable.number_ten, R.raw.knee));
+        words.add(new Word("Thigh", "muslo", R.drawable.number_ten, R.raw.thigh));
+        words.add(new Word("Forehead", "frente", R.drawable.number_two, R.raw.forehead));
+        words.add(new Word("Cheek", "mejilla", R.drawable.number_two, R.raw.cheek));
+        words.add(new Word("Tooth", "diente", R.drawable.number_three, R.raw.tooth));
+        words.add(new Word("Brain", "cerebro", R.drawable.number_four, R.raw.brain));
+        words.add(new Word("Throat", "garganta", R.drawable.number_five, R.raw.throat));
+        words.add(new Word("Lung", "pulmón", R.drawable.number_six, R.raw.lung));
+        words.add(new Word("heart", "corazón", R.drawable.number_seven, R.raw.heart));
+        words.add(new Word("Kidney", "riñón", R.drawable.number_eight, R.raw.kidney));
+        words.add(new Word("Skeleton", "esqueleto", R.drawable.number_nine, R.raw.skeleton));
+        words.add(new Word("Skull", "cráneo", R.drawable.number_ten, R.raw.skull));
 //creating a custom Adapter for ListView
         WordAdapter adapter = new WordAdapter(this, words, R.color.list_background_color);
 //getting the ListView to which the Adapter has to be added
